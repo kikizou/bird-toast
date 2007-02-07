@@ -1,0 +1,11 @@
+#summary Gameplay.
+#labels Phase-Design
+
+=The Problem=
+
+You're probably thinking, "BirdToast.  Ah, that's funny, a Duck Duck Goose video game... Wait a tick, how the #%^& is that going to work?"
+Well, Scott and I ran into a similar conundrum while brainstorming about the project.  And by the Jewel of Mattezemlia, we've got solutions.
+
+=The Concept=
+
+While Duck Duck Goose may be as simple as running around a circle trying to tag your friend in real life, its direct virtual equivalent would not be very entertaining.  We did not want to translate waiting to be tagged and then running into yawning/sighing out of boredom and begrudgingly dropping your stubby fingers one by one onto the four arrow keys in attendance at your keyboard. 
