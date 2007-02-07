@@ -1,4 +1,4 @@
-#summary Gameplay.
+#summary User end game mechanics, the meat of the cake.
 #labels Phase-Design
 
 =The Problem=
