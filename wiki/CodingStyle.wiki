@@ -27,7 +27,7 @@ private:
 
 =Commenting=
 (help me out here Zach)
-==Documenting Classes==
-==Documenting Functions==
+===Documenting Classes===
+===Documenting Functions===
 
 ,,I don't want to just define everything, please change stuff and we can finalize later.  Just put in what you think will work well and mark what you dont like somehow.,,
