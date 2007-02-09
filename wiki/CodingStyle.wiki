@@ -32,6 +32,15 @@ stub
 ===Documenting Functions===
 stub
 
+=Code Structure=
+*Brackets* should be given their own line for clarity.
+{{{
+void myFunc()
+{
+   ...
+}
+}}}
+
 =Class Structure=
 (Private/Public, Functions/Vars, Comments etc.)
 
