@@ -32,7 +32,11 @@ stub
 ===Documenting Functions===
 stub
 
+=Class Structure=
+(Private/Public, Functions/Vars, Comments etc.)
+
 =File Structure=
+(Where to put globals, global functions, includes, definitions, main, etc.)
 stub
 
-,,I don't want to just define everything, please change stuff and we can finalize later.  Just put in what you think will work well and mark what you dont like somehow.,,
+,,I don't want to just define everything, please change stuff and we can finalize later.  Just put in what you think will work well and mark what you dont like somehow.  Plus, this doesn't have to be that strict, I just want to get an idea for how things are going to look.,,
