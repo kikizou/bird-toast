@@ -1,0 +1,25 @@
+#summary Style guidelines/practices to adhere to so that we don't confuse eachother.
+#labels Phase-Implementation
+
+=General Naming=
+Names of functions and variables generally begin with a lower-case letter with the first letter of each successive word capitalized.
+
+*Class* names should be capitalized
+
+For example:
+{{{
+class MyType
+{
+public:
+    int getInt();
+
+private:
+    int m_memberInt;
+};
+}}}
+
+=Variable Names=
+*Global Variables* : Prefixed by g_  `int g_globalInt`
+*Member Variables* : Prefixed by m_  `int m_memberInt`
+
+*Constants* should be all caps.  `#define SOME_CONST 1337`
