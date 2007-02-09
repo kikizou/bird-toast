@@ -24,3 +24,8 @@ private:
 *Member Variables* : Prefixed by `m_` :  `int m_memberInt`
 
 *Constants* should be all caps.  `#define SOME_CONST 1337`
+
+=Commenting=
+(help me out here Zach)
+
+,,I don't want to just define everything, please change stuff and we can finalize later.  Just put in what you think will work well and mark what you dont like somehow.,,
