@@ -14,14 +14,12 @@ public:
     int getInt();
 
 private:
-    int m_memberInt;
+    int memberInt;
 };
 }}}
 
 =Variable Names=
 *Global Variables* : Prefixed by `g_` :  `int g_globalInt`
-
-*Member Variables* : Prefixed by `m_` :  `int m_memberInt`
 
 *Constants* should be all caps.  `#define SOME_CONST 1337`
 
