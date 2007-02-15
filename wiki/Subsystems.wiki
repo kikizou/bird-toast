@@ -1,0 +1,24 @@
+#summary The three pieces of the puzzle.
+#labels Phase-Implementation
+
+=Interaction=
+
+===Interface===
+
+===Gameplay===
+
+
+=Graphics=
+
+===Sprites===
+
+===Animations===
+
+===Worlds===
+
+
+=Audio=
+
+===Music===
+
+===Sound Effects===
