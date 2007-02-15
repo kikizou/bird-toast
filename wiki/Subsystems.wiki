@@ -4,23 +4,28 @@
 =Interaction=
 
 ===Interface===
+(stub)
 
 ===Gameplay===
-
+(stub)
 
 
 =Graphics=
 
 ===Sprites===
+(stub)
 
 ===Animations===
+(stub)
 
 ===Worlds===
-
+(stub)
 
 
 =Audio=
 
 ===Music===
+(stub)
 
 ===Sound Effects===
+(stub)
