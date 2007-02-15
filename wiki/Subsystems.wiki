@@ -12,7 +12,7 @@
 
 =Graphics=
 
-===Sprites===
+==Sprites==
 (stub)
 
 ===Animations===
