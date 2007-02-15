@@ -1,8 +1,0 @@
-#summary How we'll display the vivid world of BirdToast
-#labels Phase-Implementation
-
-=Ideas=
-
-*A Display list* is built for the background world upon loading the level for render speed.
-
-The majority of the rest of the sprites will be textured quads, so there shouldn't be a problem with drawing each individually.  This way size, skew, rotation, and texture are easily changed per object.
