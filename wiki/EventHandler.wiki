@@ -1,0 +1,47 @@
+#summary Skeleton for handling input events
+#labels Phase-Implementation
+
+{{{
+
+class EventHandler
+{
+public:
+	bool isActive();
+	void setActive(bool state);
+
+	void handleEvents();
+
+private:
+	bool isActive;
+};
+
+
+class KeyHandler : public EventHandler
+{
+public:
+private:
+};
+
+class MouseHandler : public EventHandler
+{
+public:
+private:
+};
+
+
+
+/*
+ * Listens for SDL_Events
+ * Passes SDL_KeyboardEvents to the Stack of keyHandlers
+ * Passes SDL_MouseMotionEvent and SDL_MouseButtonEvent to mouseHandlers
+ */
+class EventListener
+{
+public:
+
+private:
+	Stack mouseHandlers;
+	Stack keyHandlers;
+};
+
+}}}
