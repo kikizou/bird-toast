@@ -3,16 +3,22 @@
 
 {{{
 
+/*
+ * Takes SDL_Events and handles them based on a virtual function
+ */
 class EventHandler
 {
 public:
 	bool isActive();
 	void setActive(bool state);
 
-	void handleEvents();
+	void addEvent(SDL_Event* e);
+	virtual void handleEvent();
+
 
 private:
 	bool isActive;
+	EventQueue events;
 };
 
 
