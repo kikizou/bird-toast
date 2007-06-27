@@ -24,11 +24,12 @@ private:
 *Constants* should be all caps.  `#define SOME_CONST 1337`
 
 =Commenting=
-(help me out here Zach)
+Just make it so that we all get it.
+In other, words: Just code good.  Or maybe even gooder than that.
 ===Documenting Classes===
-stub
+Who cares, unless we both need to use them
 ===Documenting Functions===
-stub
+Again, who cares?
 
 =Code Structure=
 *Brackets* should be given their own line for clarity.
