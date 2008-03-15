@@ -113,7 +113,10 @@
      inkscape:groupmode="layer">
     <g
        id="g4586"
-       transform="matrix(1.9623788,0,0,1.9623788,-12.100017,-5.4111409)">
+       transform="matrix(1.9623788,0,0,1.9623788,-12.100017,-5.4111409)"
+       inkscape:export-filename="/home/nate/programming/bird-toast/concept/logo.png"
+       inkscape:export-xdpi="191.27179"
+       inkscape:export-ydpi="191.27179">
       <path
          style="fill:#fef8f8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.09250438;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 28.332701,23.58056 C 27.362264,27.7462 23.61736,31.071645 17.807382,31.071645 C 11.997408,31.071645 8.30293,27.446789 7.463537,22.766307 C 6.486325,17.317354 11.997408,3.7128893 17.807382,3.7128893 C 23.61736,3.7128893 29.798558,17.288301 28.332701,23.58056 z "
@@ -130,7 +133,10 @@
     </g>
     <g
        id="g4573"
-       transform="matrix(1.4171215,0,0,1.4171215,-84.218387,-9.4222849)">
+       transform="matrix(1.4171215,0,0,1.4171215,-84.218387,-9.4222849)"
+       inkscape:export-filename="/home/nate/programming/bird-toast/concept/logo.png"
+       inkscape:export-xdpi="191.27179"
+       inkscape:export-ydpi="191.27179">
       <path
          sodipodi:nodetypes="cscc"
          id="path4561"
@@ -161,11 +167,17 @@
        style="fill:#363636;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
        d="M 32,44.136364 L 36.545454,45.40909 C 33.338682,48.717204 25.479444,46.841746 32,44.136364 z "
        id="path4609"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/nate/programming/bird-toast/concept/logo.png"
+       inkscape:export-xdpi="191.27179"
+       inkscape:export-ydpi="191.27179" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot4611"
-       transform="translate(-1.2727273,-3.0909091)"><flowRegion
+       transform="translate(-1.0909091,-4.9090909)"
+       inkscape:export-filename="/home/nate/programming/bird-toast/concept/logo.png"
+       inkscape:export-xdpi="191.27179"
+       inkscape:export-ydpi="191.27179"><flowRegion
          id="flowRegion4613"><rect
            id="rect4615"
            width="63.090908"
