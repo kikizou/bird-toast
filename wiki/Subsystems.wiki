@@ -12,11 +12,16 @@
 
 =Graphics=
 
-==Sprites==
-(stub)
+===Textures===
+A birdtoast Texture is simply a wrapper for an OpenGL texture with functions for loading the texture and variables for the dimensions of the texture.
+
+===Sprite===
+A Sprite is an Animation object with position, rotation, and velocity information.
 
 ===Animations===
-(stub)
+There are two types of animations in the birdtoast engine:
+# Animation: Animation based on multiple frames per texture.  It can be loaded by specifying a file or a texture along with the number of frames in the x and y directions.  Each frame is cached into a display list on load.
+# Movement: Interpolated keyframe based animation of the constituent parts of a character or object.
 
 ==Worlds==
 The graphics of each level consist of a tile-set, and up to two backgrounds to scroll in parallax with the tiled terrain.  These elements are pieced together by a tile-set file which specifies the animations for tile image files and the way in which players will interact with the tile.
