@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,10 +13,30 @@
    height="64px"
    id="svg4548"
    sodipodi:version="0.32"
-   inkscape:version="0.45"
-   sodipodi:modified="true">
+   inkscape:version="0.46"
+   sodipodi:modified="true"
+   sodipodi:docname="logo.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4550">
+    <linearGradient
+       id="linearGradient3172">
+      <stop
+         style="stop-color:#dadada;stop-opacity:1;"
+         offset="0"
+         id="stop3174" />
+      <stop
+         style="stop-color:#f7f4f4;stop-opacity:1;"
+         offset="1"
+         id="stop3176" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 32 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="64 : 32 : 1"
+       inkscape:persp3d-origin="32 : 21.333333 : 1"
+       id="perspective29" />
     <linearGradient
        id="linearGradient4599">
       <stop
@@ -48,6 +68,15 @@
        x2="102.87176"
        y2="40"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3172"
+       id="linearGradient3178"
+       x1="86.272728"
+       y1="44.527184"
+       x2="103.47744"
+       y2="38.753639"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -57,16 +86,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.5"
-     inkscape:cx="33.451901"
-     inkscape:cy="11.3718"
+     inkscape:cx="31.720727"
+     inkscape:cy="42.665455"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
-     inkscape:window-width="924"
+     inkscape:window-width="1260"
      inkscape:window-height="760"
-     inkscape:window-x="-4"
-     inkscape:window-y="43" />
+     inkscape:window-x="0"
+     inkscape:window-y="29" />
   <metadata
      id="metadata4553">
     <rdf:RDF>
@@ -113,7 +142,7 @@
          d="M 82.128301,31.59453 C 80.156806,36.570765 81.39604,42.971797 81.454546,48.181819 L 86.909091,51.090909 L 102.72727,46 C 102.75635,41.03194 103.32082,35.350011 102,32.181818 L 93.481655,28.267586"
          style="fill:url(#linearGradient4605);fill-opacity:1.0;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
-         style="fill:#dadada;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:url(#linearGradient3178);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="M 87.102334,50.727274 C 86.375061,34.909092 86.093157,33.750576 94.738698,31.454547 C 105.23898,28.665948 102.55688,36.545456 102.92052,46.000001 L 87.102334,50.727274 z "
          id="path4563"
          sodipodi:nodetypes="cscc" />
