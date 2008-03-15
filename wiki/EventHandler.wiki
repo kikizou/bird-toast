@@ -1,8 +1,8 @@
 #summary Skeleton for handling input events
 #labels Phase-Implementation
 
-EventHash: Hash relating strings to events or keysyms
-EventHandlerHash: relating strings to programmable actions (EventHandlerCallbacks)
+*EventHash*: Hash relating strings to events or keysyms.
+*EventHandlerHash*: relating strings to programmable actions (EventHandlerCallbacks).
 
 {{{
 
