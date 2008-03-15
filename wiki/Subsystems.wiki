@@ -10,6 +10,7 @@
 =Duck Duck Goose=
 Traditionally, one 
 
+=Multiplayer=
 
 =Graphics=
 
