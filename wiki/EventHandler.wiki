@@ -31,7 +31,7 @@ public:
 	bool isActive();
 	void setActive(bool state);
 
-	void addEventHandler(const char* action, EventHandlerCallback callback);
+	void addEventHandler(const char* action, EventHandler handler);
 	virtual void handleEvent(SDL_Event* e);               // Passes event to handlers
 
 
