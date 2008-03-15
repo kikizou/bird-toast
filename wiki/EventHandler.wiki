@@ -24,33 +24,4 @@ private:
 	EventHandlerHash handlers;
 };
 
-
-class KeyHandler : public EventHandler
-{
-public:
-private:
-};
-
-class MouseHandler : public EventHandler
-{
-public:
-private:
-};
-
-
-
-/*
- * Listens for SDL_Events
- * Passes SDL_KeyboardEvents to the Stack of keyHandlers
- * Passes SDL_MouseMotionEvent and SDL_MouseButtonEvent to mouseHandlers
- */
-class EventListener
-{
-public:
-
-private:
-	Stack mouseHandlers;
-	Stack keyHandlers;
-};
-
 }}}
