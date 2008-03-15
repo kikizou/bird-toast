@@ -12,7 +12,10 @@
 
 =Graphics=
 
-===Textures===
+===Scene===
+A Scene is a surface for drawing 2D graphics via the birdtoast engine.
+
+===Texture===
 A birdtoast Texture is simply a wrapper for an OpenGL texture with functions for loading the texture and variables for the dimensions of the texture.
 
 ===Animations===
