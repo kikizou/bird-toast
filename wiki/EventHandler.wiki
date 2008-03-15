@@ -1,24 +1,27 @@
 #summary Skeleton for handling input events
 #labels Phase-Implementation
 
+EventHash: Hash relating strings to events or keysyms
+EventHandlerHash: relating strings to programmable actions (EventHandlerCallbacks)
+
 {{{
 
 /*
  * Takes SDL_Events and handles them based on a virtual function
  */
-class EventHandler
+class EventListener
 {
 public:
 	bool isActive();
 	void setActive(bool state);
 
-	void addEvent(SDL_Event* e);
-	virtual void handleEvent();
+	void addEventHandler(const char* action, EventHandlerCallback callback);
+	virtual void handleEvent(SDL_Event* e);               // Passes event to handlers
 
 
 private:
 	bool isActive;
-	EventQueue events;
+	EventHandlerHash handlers;
 };
 
 
