@@ -1,2 +1,2 @@
-#summary The Game of the Century.
+#summary The Low-tech Game of the Century.
 #labels Featured
