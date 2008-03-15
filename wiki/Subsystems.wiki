@@ -6,11 +6,9 @@
 ==Interface==
 (stub)
 
-==Gameplay==
-=Duck Duck Goose=
-Traditionally, one 
+==Game Modes==
 
-=Multiplayer=
+==Multiplayer==
 
 =Graphics=
 
@@ -21,7 +19,7 @@ Traditionally, one
 (stub)
 
 ==Worlds==
-(stub)
+The graphics of each level consist of a tile-set, and up to two backgrounds to scroll in parallax with the tiled terrain.  These elements are pieced together by a tile-set file which specifies the animations for tile image files and the way in which players will interact with the tile.
 
 
 =Audio=
