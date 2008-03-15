@@ -5,6 +5,22 @@
 *EventHandlerHash*: Hash relating strings to programmable actions (EventHandlerCallbacks).
 
 {{{
+/*
+
+ * EventHandlerCallback
+
+ */
+
+typedef void (*EventHandlerCallback)( SDL_Event *event, void *fakeThis );
+
+/*
+ * Contains EventHandlerCallback and list of events this handler responds to
+ */
+class EventHandler
+{
+        EventHandlerCallback callback;
+        Uint32* eventList;
+};
 
 /*
  * Takes SDL_Events and handles them based on a virtual function
@@ -25,3 +41,7 @@ private:
 };
 
 }}}
+
+Actions list is exposeable by printing the 
+
+Ex: GameScreen will be an EventListener.
