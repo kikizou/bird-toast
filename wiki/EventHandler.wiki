@@ -2,7 +2,8 @@
 #labels Phase-Implementation
 
 *EventHash*: Hash relating strings to events or keysyms.
-*EventHandlerHash*: Hash relating strings to programmable actions (EventHandlerCallbacks).
+
+use EventHash to relate strings to programmable actions (EventHandlerCallbacks).
 
 {{{
 /*
