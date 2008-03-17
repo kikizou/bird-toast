@@ -56,6 +56,16 @@
       <summary>implement libxml2</summary>
       <comment>To work with GUI loading, EventListener loading, Effects loading, configs loading, etc.</comment>
     </item>
+    <item>
+      <attribute id="1205726142" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205726142"/>
+      <summary>Create Scene class</summary>
+      <comment/>
+    </item>
+    <item>
+      <attribute id="1205726182" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205726182"/>
+      <summary>Create Camera class</summary>
+      <comment>In order to view Scenes from a variable position and with a variably sized viewport</comment>
+    </item>
   </category>
   <category title="Business" place="1"/>
   <category title="Unfiled" place="2"/>
