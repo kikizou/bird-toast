@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<gtodo>
+  <category title="Personal" place="0">
+    <item>
+      <attribute id="1205649681" priority="1" done="0" start_date="733117" enddate="733123" notify="0" endtime="-60" last_edited="1205649681"/>
+      <summary>Create EventListener</summary>
+      <comment>see wiki.</comment>
+    </item>
+    <item>
+      <attribute id="1205649719" priority="1" done="0" start_date="733117" enddate="733123" notify="0" endtime="-60" last_edited="1205649719"/>
+      <summary>Create EventHandler class</summary>
+      <comment>see wiki</comment>
+    </item>
+    <item>
+      <attribute id="1205649768" priority="1" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205649768"/>
+      <summary>Enable exposition of EventListener actions</summary>
+      <comment>see wiki</comment>
+    </item>
+    <item>
+      <attribute id="1205649853" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205649853"/>
+      <summary>Make an icon for the SDL window</summary>
+      <comment>maybe fire, a toaster, or an egg, or either of those on fire.</comment>
+    </item>
+    <item>
+      <attribute id="1205650310" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205650310"/>
+      <summary>write a log class to capture stderr and output to file</summary>
+      <comment/>
+    </item>
+    <item>
+      <attribute id="1205650573" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205650573"/>
+      <summary>implement physfs</summary>
+      <comment>maybe for levels or movement animations, but definitely figure out how to install binary separate from share files in the process</comment>
+    </item>
+    <item>
+      <attribute id="1205651200" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205651200"/>
+      <summary>get doxygen working with libbt</summary>
+      <comment/>
+    </item>
+    <item>
+      <attribute id="1205649595" priority="1" done="1" start_date="733117" completed_date="733117" enddate="733118" notify="0" endtime="-60" last_edited="1205721742"/>
+      <summary>Create Animation class</summary>
+      <comment>See wiki for details.  Base on old SDL birdtoast code but without animation direction (up or down).  Use one display list per frame (cache on load).</comment>
+    </item>
+    <item>
+      <attribute id="1205649486" priority="1" done="1" start_date="733117" completed_date="733117" enddate="733118" notify="0" endtime="-60" last_edited="1205721746"/>
+      <summary>Create Texture class</summary>
+      <comment>See wiki for details: should only be a wrapper for the GLuint and for loading images.  See old CAEN programs for load function.</comment>
+    </item>
+    <item>
+      <attribute id="1205650166" priority="2" done="1" start_date="733117" completed_date="733117" enddate="733117" notify="0" endtime="-60" last_edited="1205722244"/>
+      <summary>Create bt namespace for engine classes</summary>
+      <comment/>
+    </item>
+    <item>
+      <attribute id="1205722233" priority="1" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205722449"/>
+      <summary>implement libxml2</summary>
+      <comment>To work with GUI loading, EventListener loading, Effects loading, configs loading, etc.</comment>
+    </item>
+  </category>
+  <category title="Business" place="1"/>
+  <category title="Unfiled" place="2"/>
+</gtodo>
