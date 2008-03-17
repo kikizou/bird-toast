@@ -33,5 +33,7 @@ ltmain.sh
 mkinstalldirs
 config.guess
 config.sub
+config.log
 Makefile
 Makefile.in
+Makefile.in.in
