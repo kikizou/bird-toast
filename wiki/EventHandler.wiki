@@ -1,48 +1,43 @@
 #summary Skeleton for handling input events
 #labels Phase-Implementation
 
-*EventHash*: Hash relating strings to events or keysyms.
-
-use EventHash to relate strings to programmable actions (EventHandlerCallbacks).
+Needs to expose actions as strings for configuration using SomeKindOfHash,
+relating events to names of hard-coded actions
 
 {{{
-/*
-
- * EventHandlerCallback
-
- */
-
-typedef void (*EventHandlerCallback)( SDL_Event *event, void *fakeThis );
-
-/*
- * Contains EventHandlerCallback and list of events this handler responds to
- */
-class EventHandler
+class EventTranslation : public XMLObject
 {
-        EventHandlerCallback callback;
-        Uint32* eventList;
+        Uint8 eventType;
+        void** data;     /* array of void pointers to required, xml-configurable event data */
+        const char* actionName;
 };
 
 /*
  * Takes SDL_Events and handles them based on a virtual function
  */
-class EventListener
+class EventListener : public XMLObject
 {
 public:
 	bool isActive();
 	void setActive(bool state);
 
-	void addEventHandler(const char* action, EventHandler handler);
-	virtual void handleEvent(SDL_Event* e);               // Passes event to handlers
+	virtual void handleEvent(SDL_Event* e);
 
+        vector<EventTranslation> SomeHash;
 
 private:
-	bool isActive;
-	EventHandlerHash handlers;
+	bool active;
+};
+
+class KeyListener : public EventListener
+{
+};
+
+class MouseListener : public EventListener
+{
 };
 
 }}}
 
-Actions list is exposeable by printing the 
 
-Ex: GameScreen will be an EventListener.
+Ex: Each GameScreen will have an EventListener.
