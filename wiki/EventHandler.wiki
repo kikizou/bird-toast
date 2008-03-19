@@ -1,43 +1,25 @@
 #summary Skeleton for handling input events
 #labels Phase-Implementation
 
-Needs to expose actions as strings for configuration using SomeKindOfHash,
-relating events to names of hard-coded actions
+const char* to enum ACTION
+enum ACTION to SDLK_* (array indexed by ACTION of Uint8s or SDLK_s)
+
+to get char* for SDLKey, refer to SDL_KeyboardEvent...
+
+use these maps in conjunction with SDL_GetKeyState(NULL):
 
 {{{
-class EventTranslation : public XMLObject
+
+void SomeClass::update()
 {
-        Uint8 eventType;
-        void** data;     /* array of void pointers to required, xml-configurable event data */
-        const char* actionName;
-};
+    Uint8* keys = SDL_GetKeyState(NULL);
 
-/*
- * Takes SDL_Events and handles them based on a virtual function
- */
-class EventListener : public XMLObject
-{
-public:
-	bool isActive();
-	void setActive(bool state);
-
-	virtual void handleEvent(SDL_Event* e);
-
-        vector<EventTranslation> SomeHash;
-
-private:
-	bool active;
-};
-
-class KeyListener : public EventListener
-{
-};
-
-class MouseListener : public EventListener
-{
-};
+    if(keys[getKeyFromAction(ACTION)] == 1) /* Key Pressed */
+    {
+        /* Handle input for ACTION */
+    }
+}
 
 }}}
 
-
-Ex: Each GameScreen will have an EventListener.
+This way the key pressed can be dynamically defined.
