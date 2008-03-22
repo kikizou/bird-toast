@@ -1,10 +1,15 @@
 #summary Skeleton for handling input events
 #labels Phase-Implementation
 
+==EventHandler==
+Event driven input (sequential typing/button clicks)
+
+==KeyHandler/JoystickHandler==
+
 const char* to enum ACTION
 enum ACTION to SDLK_* (array indexed by ACTION of Uint8s or SDLK_s)
 
-to get char* for SDLKey, refer to SDL_KeyboardEvent...
+to get char* for SDLKey, refer to SDL_GetKeyName(SDLKey key)...
 
 use these maps in conjunction with SDL_GetKeyState(NULL):
 
