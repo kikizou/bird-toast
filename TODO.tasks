@@ -7,11 +7,6 @@
       <comment>see wiki.</comment>
     </item>
     <item>
-      <attribute id="1205649719" priority="1" done="0" start_date="733117" enddate="733123" notify="0" endtime="-60" last_edited="1205649719"/>
-      <summary>Create EventHandler class</summary>
-      <comment>see wiki</comment>
-    </item>
-    <item>
       <attribute id="1205649768" priority="1" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205649768"/>
       <summary>Enable exposition of EventListener actions</summary>
       <comment>see wiki</comment>
@@ -25,11 +20,6 @@
       <attribute id="1205650310" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205650310"/>
       <summary>write a log class to capture stderr and output to file</summary>
       <comment/>
-    </item>
-    <item>
-      <attribute id="1205650573" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205650573"/>
-      <summary>implement physfs</summary>
-      <comment>maybe for levels or movement animations, but definitely figure out how to install binary separate from share files in the process</comment>
     </item>
     <item>
       <attribute id="1205651200" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205651200"/>
@@ -52,11 +42,6 @@
       <comment/>
     </item>
     <item>
-      <attribute id="1205722233" priority="1" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205722449"/>
-      <summary>implement libxml2</summary>
-      <comment>To work with GUI loading, EventListener loading, Effects loading, configs loading, etc.</comment>
-    </item>
-    <item>
       <attribute id="1205726142" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205726142"/>
       <summary>Create Scene class</summary>
       <comment/>
@@ -65,6 +50,26 @@
       <attribute id="1205726182" priority="0" done="0" start_date="733117" enddate="99999999" notify="0" endtime="-60" last_edited="1205726182"/>
       <summary>Create Camera class</summary>
       <comment>In order to view Scenes from a variable position and with a variably sized viewport</comment>
+    </item>
+    <item>
+      <attribute id="1205650573" priority="0" done="1" start_date="733117" completed_date="733124" notify="0" last_edited="1206330130"/>
+      <summary>implement physfs</summary>
+      <comment>maybe for levels or movement animations, but definitely figure out how to install binary separate from share files in the process</comment>
+    </item>
+    <item>
+      <attribute id="1205722233" priority="1" done="1" start_date="733117" completed_date="733124" notify="0" last_edited="1206330156"/>
+      <summary>implement libxml2</summary>
+      <comment>To work with GUI loading, EventListener loading, Effects loading, configs loading, etc.</comment>
+    </item>
+    <item>
+      <attribute id="1206330980" priority="1" done="0" start_date="733124" enddate="99999999" notify="0" endtime="-60" last_edited="1206330980"/>
+      <summary>Create GUI</summary>
+      <comment>to be used for game screens and level editor.  Event driven (uses EventListeners).  Based on old SDL bird-toast code.</comment>
+    </item>
+    <item>
+      <attribute id="1206330287" priority="1" done="0" start_date="733124" enddate="99999999" notify="0" endtime="-60" last_edited="1206333853"/>
+      <summary>Implement loading of True Type fonts</summary>
+      <comment>Write own implementation based on NeHe tutorial and FreeType library.  FTGL is to hefty an implementation for this game.</comment>
     </item>
   </category>
   <category title="Business" place="1"/>

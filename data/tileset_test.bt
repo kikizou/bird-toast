@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<tileset>
+	<animation refreshrate="100" flags="ANIM_LOOP">
+		<texture framewidth="64" frameheight="64" numframesx="8" numframesy="3">
+			tiles/grey.png
+		</texture>
+	</animation>
+	<tile name="straight flat" startFrame="0" endFrame="3"></tile>
+	<tile name="45up" startFrame="4" endFrame="7"></tile>
+</tileset>
