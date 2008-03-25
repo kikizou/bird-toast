@@ -13,8 +13,6 @@ AM_PROG_CC_STDC
 AC_HEADER_STDC
 
 
-
-
 dnl ***************************************************************************
 dnl Internatinalization
 dnl ***************************************************************************
@@ -32,7 +30,7 @@ AM_PROG_LIBTOOL
 
 
 
-PKG_CHECK_MODULES(SDL, sdl >= 1.2.12)
+PKG_CHECK_MODULES(SDL, sdl)
 AC_SUBST(SDL_CFLAGS)
 AC_SUBST(SDL_LIBS)
 

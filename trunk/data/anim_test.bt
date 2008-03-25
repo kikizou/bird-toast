@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<animation startframe="8" endframe="15" refreshrate="80" flags="ANIM_LOOP|ANIM_REVERSE|ANIM_PINGPONG">
+<animation startframe="8" endframe="15" flags="ANIM_REVERSE|ANIM_PINGPONG">
 	<texture framewidth="64" frameheight="64"
 		drawwidth="128" drawheight="128"
 		numframesx="8" numframesy="3">

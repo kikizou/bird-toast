@@ -15,6 +15,26 @@ bird_toastdoc_DATA = \
 
 EXTRA_DIST = $(bird_toastdoc_DATA)
 
+INCLUDES = \
+	-DPACKAGE_LOCALE_DIR=\""$(prefix)/$(DATADIRNAME)/locale"\" \
+	-DPACKAGE_SRC_DIR=\""$(srcdir)"\" \
+	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
+	`sdl-config --cflags` \
+	`xml2-config --cflags`
+
+bin_PROGRAMS = \
+	birdtoast
+
+birdtoast_SOURCES = \
+	src/globals.h\
+	src/main.cxx
+
+AM_LDFLAGS = \
+			`sdl-config --libs` \
+			`xml2-config --libs` \
+			-lSDL_image -lGL \
+			-L./src -lbt -lphysfs
+
 # Copy all the spec files. Of cource, only one is actually used.
 dist-hook:
 	for specfile in *.spec; do \
