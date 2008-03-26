@@ -20,7 +20,8 @@ INCLUDES = \
 	-DPACKAGE_SRC_DIR=\""$(srcdir)"\" \
 	-DPACKAGE_DATA_DIR=\""$(datadir)"\" \
 	`sdl-config --cflags` \
-	`xml2-config --cflags`
+	`xml2-config --cflags` \
+	`freetype-config --cflags`
 
 bin_PROGRAMS = \
 	birdtoast
@@ -32,6 +33,7 @@ birdtoast_SOURCES = \
 AM_LDFLAGS = \
 			`sdl-config --libs` \
 			`xml2-config --libs` \
+			`freetype-config --libs` \
 			-lSDL_image -lGL \
 			-L./src -lbt -lphysfs
 
