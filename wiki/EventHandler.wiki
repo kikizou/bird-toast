@@ -2,29 +2,63 @@
 #labels Phase-Implementation
 
 ==EventHandler==
-Event driven input (sequential typing/button clicks)
+{{{
 
-==KeyHandler/JoystickHandler==
+class EventHandler
+{
+public:
+	virtual void handleEvent(SDL_Event* event) = 0;
+};
 
-const char* to enum ACTION
-enum ACTION to SDLK_* (array indexed by ACTION of Uint8s or SDLK_s)
+}}}
 
-to get char* for SDLKey, refer to SDL_GetKeyName(SDLKey key)...
+Enables event driven input (sequential typing/button clicks)
 
-use these maps in conjunction with SDL_GetKeyState(NULL):
+
+==Action Map==
+Allows the definition of SDL_Event based actions from file/at runtime.
+The name of an action (e.g. "Player1 Run Right") is mapped to an ActionDescriptor
+which describes the SDL_Event type and the specific data associated with that event.
 
 {{{
 
-void SomeClass::update()
+typedef struct
 {
-    Uint8* keys = SDL_GetKeyState(NULL);
+	Uint8 eventType, action;
+} ActionDescriptor;
 
-    if(keys[getKeyFromAction(ACTION)] == 1) /* Key Pressed */
-    {
-        /* Handle input for ACTION */
-    }
+static std::map<const char*, ActionDescriptor> g_Actions;
+
+}}}
+
+*Use:* An assigned action can then be used to define behavior after keypresses etc.
+For example:
+
+{{{
+
+/* define action */
+ActionDescriptor desc = {SDL_KEYBOARD_EVENT, SDLK_UP};
+
+g_Actions["bloop"] = desc;
+
+...
+
+/* Use mapped action */
+void MyClass::handleEvent(SDL_Event* event)
+{
+	switch(event->type)
+	{
+	case SDL_KEYBOARD_EVENT:
+		switch(event->key->keysym->sym)
+		{
+		case g_Actions["bloop"].action:
+			/* Do something here */
+			break;
+		}
+		break;
+	}
 }
 
 }}}
 
-This way the key pressed can be dynamically defined.
+The eventType field is useful for taking input from the game and turning it into an ActionDescription in order to save the settings.  We need to know what action the data is for since the SDL enums overlap.
