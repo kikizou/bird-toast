@@ -27,8 +27,10 @@ bin_PROGRAMS = \
 	birdtoast
 
 birdtoast_SOURCES = \
-	src/globals.h\
-	src/main.cxx
+	src/main.cxx\
+	src/scene_globals.h\
+	src/sys_globals.h \
+	src/globals.h
 
 AM_LDFLAGS = \
 			`sdl-config --libs` \
