@@ -30,7 +30,9 @@ birdtoast_SOURCES = \
 	src/main.cxx\
 	src/scene_globals.h\
 	src/sys_globals.h \
-	src/globals.h
+	src/globals.h \
+	src/game_goose.cxx \
+	src/tileengine.h
 
 AM_LDFLAGS = \
 			`sdl-config --libs` \
