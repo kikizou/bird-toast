@@ -1,3 +1,10 @@
 #summary The Low-tech Game of the Century.
 #labels Featured
+
+===Updates===
+As of August 2008, the Box2D physics engine has been implemented as well as XML configuration of resources and the game world.  There is also some concept art in the SVN repository.
+
+===Todo===
+Ragdolls, Actors, Sound
+Dev Console
 Screenshots to be put here ASAP.
