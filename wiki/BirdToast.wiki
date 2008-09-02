@@ -2,7 +2,7 @@
 #labels Featured
 
 ===Updates===
-As of August 2008, the Box2D physics engine has been implemented as well as XML configuration of resources and the game world.  There is also some concept art in the SVN repository.
+As of August 2008, the Box2D physics engine has been implemented as well as XML configuration of resources and the game world.  There is also some concept art in the SVN repository although the code-base is not up to date.
 
 ===Todo===
 -Ragdolls, Actors
