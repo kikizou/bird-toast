@@ -1,0 +1,11 @@
+#summary Implementation of world objects on the map.
+#labels Phase-Implementation
+
+= Monster/Player Definitions =
+  * Definitions of monster & player bodies/joints should not be done stored in xml
+  * Only store positions of monsters/players in the xml file (world map)
+  * Definitions should be static class variables
+
+= Constructions =
+  * To be added later
+  * Any number of bodies stuck together by joints
